@@ -1,0 +1,32 @@
+
+@PACKAGE_INIT@
+    
+set_and_check(rocprim_INCLUDE_DIR @PACKAGE_INCLUDE_INSTALL_DIR@)
+
+set_and_check(rocprim_INCLUDE_DIRS @PACKAGE_INCLUDE_INSTALL_DIR@)
+
+set_and_check(ROCPRIM_INCLUDE_DIR @PACKAGE_INCLUDE_INSTALL_DIR@)
+
+set_and_check(ROCPRIM_INCLUDE_DIRS @PACKAGE_INCLUDE_INSTALL_DIR@)
+
+set_and_check(rocprim_INCLUDE_DIR @PACKAGE_INCLUDE_INSTALL_DIR@)
+
+set_and_check(rocprim_INCLUDE_DIRS @PACKAGE_INCLUDE_INSTALL_DIR@)
+
+set_and_check(rocprim_TARGET_FILE @PACKAGE_CONFIG_PACKAGE_INSTALL_DIR@/rocprim-targets.cmake)
+
+find_dependency(hip)
+
+include(${rocprim_TARGET_FILE})
+
+set(rocprim_LIBRARIES roc::rocprim roc::rocprim_hip)
+
+set(rocprim_LIBRARY roc::rocprim roc::rocprim_hip)
+
+set(ROCPRIM_LIBRARIES roc::rocprim roc::rocprim_hip)
+
+set(ROCPRIM_LIBRARY roc::rocprim roc::rocprim_hip)
+
+set(rocprim_LIBRARIES roc::rocprim roc::rocprim_hip)
+
+set(rocprim_LIBRARY roc::rocprim roc::rocprim_hip)

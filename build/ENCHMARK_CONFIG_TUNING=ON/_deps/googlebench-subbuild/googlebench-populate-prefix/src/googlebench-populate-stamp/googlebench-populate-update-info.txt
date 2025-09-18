@@ -1,0 +1,7 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The patch step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+command (connected)=/opt/conda/envs/py_3.12/bin/cmake;-Dcan_fetch=YES;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/workspace/rocPRIM/build/ENCHMARK_CONFIG_TUNING=ON/_deps/googlebench-subbuild/googlebench-populate-prefix/tmp/googlebench-populate-gitupdate.cmake
+command (disconnected)=/opt/conda/envs/py_3.12/bin/cmake;-Dcan_fetch=NO;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/workspace/rocPRIM/build/ENCHMARK_CONFIG_TUNING=ON/_deps/googlebench-subbuild/googlebench-populate-prefix/tmp/googlebench-populate-gitupdate.cmake
+work_dir=/workspace/rocPRIM/build/ENCHMARK_CONFIG_TUNING=ON/_deps/googlebench-src
